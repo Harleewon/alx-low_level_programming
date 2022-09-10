@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - The return of n
+ * main - Prints a random number and state
+ * weather it is positive, negative, or zero.
  *
- * return: Always 0 (Success)
+ * Return: Always 0.
  */
-
 int main(void)
 {
 	int n;

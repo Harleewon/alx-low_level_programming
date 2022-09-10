@@ -8,7 +8,6 @@
  * return: Always 0 (Success)
  */
 
-/* The return value of n*/
 int main(void)
 {
 	int n;

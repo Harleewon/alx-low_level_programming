@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - A script that print _putchar
+ * main Entrt point
  *
  * return: Always 0 (Sucess)
  */

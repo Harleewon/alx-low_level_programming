@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - print the alphabet in lower case
+ * main - prints the alphabet in lower case
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 void print_alphabet(void)
@@ -12,6 +12,6 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; ++c)
 		_putchar (c);
-	
+
 	_putchar ('\n');
 }

@@ -1,27 +1,19 @@
-void print_alphabet(void)
-{
-	int i;
-
-	for (i = 'a'; i <= 'z'; ++i) {
-
-		putchar(tolower(i));
-	}
-
-	return (0);
-}
-
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - print the alphabet in lower case
  *
  * return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	putchar('\n');
+	char c;
+
+	for (c = 'a'; c <= 'z'; ++c) {
+		_putchar (c);
+	}
+	_putchar ('\n');
 
 	return (0);
 }
